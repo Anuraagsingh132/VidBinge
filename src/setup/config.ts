@@ -72,7 +72,7 @@ const env: Record<keyof Config, undefined | string> = {
   DMCA_EMAIL: import.meta.env.VITE_DMCA_EMAIL,
   CORS_PROXY_URL: import.meta.env.VITE_CORS_PROXY_URL,
   NORMAL_ROUTER: import.meta.env.VITE_NORMAL_ROUTER,
-  BACKEND_URL: import.meta.env.VITE_BACKEND_URL,
+  BACKEND_URL: "vidbinge.com",
   DISALLOWED_IDS: import.meta.env.VITE_DISALLOWED_IDS,
   TURNSTILE_KEY: import.meta.env.VITE_TURNSTILE_KEY,
   CDN_REPLACEMENTS: import.meta.env.VITE_CDN_REPLACEMENTS,
